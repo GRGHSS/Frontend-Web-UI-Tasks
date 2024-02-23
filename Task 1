@@ -1,0 +1,27 @@
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Обмен текстом</title>
+</head>
+<body>
+
+<p>Нажмите кнопку, чтобы поменять текст в элементе DIV:</p>
+
+<p><button onclick="сменитьТекст()">Нажмите меня</button></p>
+
+<div id="мойDIV">Привет</div>
+
+<script>
+function сменитьТекст() {
+  var x = document.getElementById("мойDIV");
+  if (x.innerHTML === "Привет") {
+    x.innerHTML = "Измененный текст!";
+  } else {
+    x.innerHTML = "Привет";
+  }
+}
+</script>
+
+</body>
+</html>
