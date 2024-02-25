@@ -1,0 +1,18 @@
+/* navigation paneli style */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* hghman style */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* hghman vra dnelis style */
+nav a:hover {
+    background-color: #555;
+}
+
